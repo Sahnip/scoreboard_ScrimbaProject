@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'Digital Numbers', sans-serif; /* Name your font family */
+  src: url('https://fonts.cdnfonts.com/css/digital-number'); /* Locate the .ttf file within your directory*/
+}
+
+body{
+    margin: 0;
+    background-color: #0a1651;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.column{
+    text-align: center;
+}
+
+h3{
+    font-size: 50px;
+    margin: 20px;
+    color: aliceblue;
+}
+
+
+.score{
+    display: flex;
+    justify-content: center;
+    font-family: 'Digital Numbers', sans-serif;
+    color: #dd1212;
+    background-color: black;
+    font-size: 80px;
+    margin: 20px;
+    padding: 10px 50px;
+    border-radius: 5px;
+}
+
+button{
+    background: none;
+    border: 1px solid;
+    border-color: #b9c5ff;
+    border-radius: 5px;
+    color: #b9c5ff;
+    padding: 10px;
+    margin: 0px 5px;
+    font-family: 'Digital Numbers', sans-serif;
+}

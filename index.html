@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.cdnfonts.com/css/digital-numbers" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="column">
+                <h3>HOME</h3>
+                <h2 id="scoreH" class="score">0</h2>
+                <div>
+                    <button onclick="addH(1)">+1</button>
+                    <button onclick="addH(2)">+2</button>
+                    <button onclick="addH(3)">+3</button>
+                    <button onclick="resetH()">+Reset</button>
+                </div>
+            </div>
+            <div class="column">
+                <h3>GUEST</h3>
+                <h2 id="scoreG" class="score">0</h2>
+                <div>
+                    <button onclick="addG(1)">+1</button>
+                    <button onclick="addG(2)">+2</button>
+                    <button onclick="addG(3)">+3</button>
+                    <button onclick="resetG()">+Reset</button>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
